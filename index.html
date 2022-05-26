@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cypher - Collider Craftworks</title>
+    <meta name="description" content="Chat " />
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="head-logo">
+                    <h1>Collider Craftworks</h1>
+                </div>
+                <div class="header-right">
+                    <ul>
+                        <li>
+                            <a href="https://opensea.io/collection/cypher-drop-1">
+                                OPENSEA
+                                <svg width="20px" height="20px" viewBox="0 0 90 90" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" style="user-select: auto;">
+                                    <path
+                                        d="M45 0C20.151 0 0 20.151 0 45C0 69.849 20.151 90 45 90C69.849 90 90 69.849 90 45C90 20.151 69.858 0 45 0ZM22.203 46.512L22.392 46.206L34.101 27.891C34.272 27.63 34.677 27.657 34.803 27.945C36.756 32.328 38.448 37.782 37.656 41.175C37.323 42.57 36.396 44.46 35.352 46.206C35.217 46.458 35.073 46.71 34.911 46.953C34.839 47.061 34.713 47.124 34.578 47.124H22.545C22.221 47.124 22.032 46.773 22.203 46.512ZM74.376 52.812C74.376 52.983 74.277 53.127 74.133 53.19C73.224 53.577 70.119 55.008 68.832 56.799C65.538 61.38 63.027 67.932 57.402 67.932H33.948C25.632 67.932 18.9 61.173 18.9 52.83V52.56C18.9 52.344 19.08 52.164 19.305 52.164H32.373C32.634 52.164 32.823 52.398 32.805 52.659C32.706 53.505 32.868 54.378 33.273 55.17C34.047 56.745 35.658 57.726 37.395 57.726H43.866V52.677H37.467C37.143 52.677 36.945 52.299 37.134 52.029C37.206 51.921 37.278 51.813 37.368 51.687C37.971 50.823 38.835 49.491 39.699 47.97C40.284 46.944 40.851 45.846 41.31 44.748C41.4 44.55 41.472 44.343 41.553 44.145C41.679 43.794 41.805 43.461 41.895 43.137C41.985 42.858 42.066 42.57 42.138 42.3C42.354 41.364 42.444 40.374 42.444 39.348C42.444 38.943 42.426 38.52 42.39 38.124C42.372 37.683 42.318 37.242 42.264 36.801C42.228 36.414 42.156 36.027 42.084 35.631C41.985 35.046 41.859 34.461 41.715 33.876L41.661 33.651C41.553 33.246 41.454 32.868 41.328 32.463C40.959 31.203 40.545 29.97 40.095 28.818C39.933 28.359 39.753 27.918 39.564 27.486C39.294 26.82 39.015 26.217 38.763 25.65C38.628 25.389 38.52 25.155 38.412 24.912C38.286 24.642 38.16 24.372 38.025 24.111C37.935 23.913 37.827 23.724 37.755 23.544L36.963 22.086C36.855 21.888 37.035 21.645 37.251 21.708L42.201 23.049H42.219C42.228 23.049 42.228 23.049 42.237 23.049L42.885 23.238L43.605 23.436L43.866 23.508V20.574C43.866 19.152 45 18 46.413 18C47.115 18 47.754 18.288 48.204 18.756C48.663 19.224 48.951 19.863 48.951 20.574V24.939L49.482 25.083C49.518 25.101 49.563 25.119 49.599 25.146C49.725 25.236 49.914 25.38 50.148 25.56C50.337 25.704 50.535 25.884 50.769 26.073C51.246 26.46 51.822 26.955 52.443 27.522C52.605 27.666 52.767 27.81 52.92 27.963C53.721 28.71 54.621 29.583 55.485 30.555C55.728 30.834 55.962 31.104 56.205 31.401C56.439 31.698 56.7 31.986 56.916 32.274C57.213 32.661 57.519 33.066 57.798 33.489C57.924 33.687 58.077 33.894 58.194 34.092C58.554 34.623 58.86 35.172 59.157 35.721C59.283 35.973 59.409 36.252 59.517 36.522C59.85 37.26 60.111 38.007 60.273 38.763C60.327 38.925 60.363 39.096 60.381 39.258V39.294C60.435 39.51 60.453 39.744 60.471 39.987C60.543 40.752 60.507 41.526 60.345 42.3C60.273 42.624 60.183 42.93 60.075 43.263C59.958 43.578 59.85 43.902 59.706 44.217C59.427 44.856 59.103 45.504 58.716 46.098C58.59 46.323 58.437 46.557 58.293 46.782C58.131 47.016 57.96 47.241 57.816 47.457C57.609 47.736 57.393 48.024 57.168 48.285C56.97 48.555 56.772 48.825 56.547 49.068C56.241 49.437 55.944 49.779 55.629 50.112C55.449 50.328 55.251 50.553 55.044 50.751C54.846 50.976 54.639 51.174 54.459 51.354C54.144 51.669 53.892 51.903 53.676 52.11L53.163 52.569C53.091 52.641 52.992 52.677 52.893 52.677H48.951V57.726H53.91C55.017 57.726 56.07 57.339 56.925 56.61C57.213 56.358 58.482 55.26 59.985 53.604C60.039 53.541 60.102 53.505 60.174 53.487L73.863 49.527C74.124 49.455 74.376 49.644 74.376 49.914V52.812V52.812Z"
+                                        fill="rgba(255, 255, 255, 0.7)" style="user-select: auto;"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://medium.com/@collidercraftworks/collider-craftworks-ec8d30b95893">
+                                MEDIUM
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    style="width: 20px; height: 20px; user-select: auto;" height="1em" width="1em"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.025 8c0 2.485-2.02 4.5-4.513 4.5A4.506 4.506 0 0 1 0 8c0-2.486 2.02-4.5 4.512-4.5A4.506 4.506 0 0 1 9.025 8zm4.95 0c0 2.34-1.01 4.236-2.256 4.236-1.246 0-2.256-1.897-2.256-4.236 0-2.34 1.01-4.236 2.256-4.236 1.246 0 2.256 1.897 2.256 4.236zM16 8c0 2.096-.355 3.795-.794 3.795-.438 0-.793-1.7-.793-3.795 0-2.096.355-3.795.794-3.795.438 0 .793 1.699.793 3.795z"
+                                        style="user-select: auto;"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCFMcJo771WLCYR36zHGZeZQ">
+                                YOUTUBE
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    style="width: 20px; height: 20px; user-select: auto;" height="1em" width="1em"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"
+                                        style="user-select: auto;"></path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="video-holder">
+            <video src="assets/cypher.mp4" loop muted autoplay></video>
+        </div>
+        <div class="container">
+            <div class="banner-content">
+                <div class="banner-form">
+                    <form>
+                        <h1 id="status">Public mint is live</h1>
+                        <div class="number">
+                            <span class="minus" id="btn-minus">-</span>
+                            <input id="totalNFT" type="text" value="1" />
+                            <span class="plus" id="btn-plus">+</span>
+                        </div>
+                        <p>Price: <span id="totalETH" style="margin-left:3px;">0.5</span>0 ETH</p>
+                        <button id="connectBtn" type="button" style="display: inline-block;">Connect Wallet</button>
+                        <button id="checkoutBtn" type="button" style="display: none;">Mint</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="we-are-cypher">
+        <div class="container">
+            <div class="we-are-content wow fadeInUp">
+                <h1>
+                    <span>WE ARE</span>
+                    CYPHER
+                </h1>
+                <p>The arbiters of truth, law and order have failed us for the last time.
+                    Their financial institutions crumbled around us as they plunder, silence,
+                    and enforce dated constructs.
+                </p>
+                <p>
+                    We are Cypher, we make our luck & live by our own rules.
+                    Our kind is beyond borders or bound, we are nomads from no land and obey no master.
+                </p>
+                <!-- <div class="lite-papper" data-toggle="collapse" href="#collapseExample" role="button"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    READ LITE PAPER<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                        style="margin-left: 1vw; user-select: auto;" height="1em" width="1em"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                            style="user-select: auto;"></path>
+                    </svg>
+                </div> -->
+                <a href="#" class="we-are-btn">
+                    ENGAGE <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                        height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="user-select: auto;">
+                        <path
+                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+                            style="user-select: auto;"></path>
+                    </svg>
+                </a>
+            </div>
+            <div class="collapse" id="collapseExample">
+                <div class="swiper-container slide2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="inner-slide-img">
+                                <img src="assets/images/slideboximg.jpg">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="inner-slide-img">
+                                <img src="assets/images/slideboximg.jpg">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="inner-slide-img">
+                                <img src="assets/images/slideboximg.jpg">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="inner-slide-img">
+                                <img src="assets/images/slideboximg.jpg">
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Add Pagination -->
+                    <!-- <div class="swiper-pagination"></div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slides-holder">
+        <div class="card-slide-btn prev">
+            <svg viewBox="0 0 10 16" xmlns="http://www.w3.org/2000/svg" style="user-select: auto;">
+                <polyline fill="none" stroke-width="1.4" points="1,15 8,8 1,1" stroke="#fff" style="user-select: auto;">
+                </polyline>
+            </svg>
+        </div>
+        <div class="card-slide-btn next">
+            <svg viewBox="0 0 10 16" xmlns="http://www.w3.org/2000/svg" style="user-select: auto;">
+                <polyline fill="none" stroke-width="1.4" points="1,15 8,8 1,1" stroke="#fff" style="user-select: auto;">
+                </polyline>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="swiper-container slide1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slide-card-box">
+                            <img src="assets/images/ryanandcrypto.jpg">
+                            <p>@ryanandcrypto</p>
+                            <h6>”This is exactly the kind of project you want to invest on the long term.”</h6>
+                            <a href="#">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="iconCard" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"
+                                    style="user-select: auto;">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                                        style="user-select: auto;"></path>
+                                </svg>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-card-box">
+                            <img src="https://cypher.collider.gg/static/946a194396b878d53e4b4cfeb4c3fbde/2244e/%40cryptogorilla.jpg">
+                            <p>@CryptoGorillaYT</p>
+                            <h6>“You can see the amount of detail that has gone into making these different nfts.”</h6>
+                            <a href="#">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="iconCard" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"
+                                    style="user-select: auto;">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                                        style="user-select: auto;"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-card-box">
+                            <img src="https://cypher.collider.gg/static/be1ac78fe9d3ddb18db3c13372d2dbc0/2244e/%40NFTWilsn.jpg">
+                            <p>@NFTWilsn</p>
+                            <h6>“This an upcoming NFT that will make you a millionaire by the end of 2022.”</h6>
+                            <a href="#">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="iconCard" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"
+                                    style="user-select: auto;">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                                        style="user-select: auto;"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-card-box">
+                            <img src="https://cypher.collider.gg/static/5bf604d9dd0cc79330d71feedc286bb4/2244e/%40DarxyWayne.jpg">
+                            <p>@DarxyWayne</p>
+                            <h6>“This project is going to be big. Crisp. High-res, high-def.”</h6>
+                            <a href="#">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="iconCard" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"
+                                    style="user-select: auto;">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                                        style="user-select: auto;"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-card-box">
+                            <img src="https://cypher.collider.gg/static/fc47af05aa1770b2ca7ce399b69252c2/2244e/%40patrickdang.jpg">
+                            <p>@patrickdang</p>
+                            <h6>“What makes this project different is that they actually have a lot of triple A experience.”</h6>
+                            <a href="#">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="iconCard" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"
+                                    style="user-select: auto;">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                                        style="user-select: auto;"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-card-box">
+                            <img src="https://cypher.collider.gg/static/5a05687c45e3d1a7291ef1eaf8598fc5/bbe36/%40cryptovilius.png">
+                            <p>@cryptovilius</p>
+                            <h6>“Really mind-blowing. Fantastic artwork. I’m very bullish for this project.”</h6>
+                            <a href="#">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="iconCard" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"
+                                    style="user-select: auto;">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                                        style="user-select: auto;"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <!-- <div class="swiper-pagination"></div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- nested slide start -->
+
+    <section class="curve-slider-holder">
+        <div class="swiper-container swiper-container-h swiper-h">
+            <div class="swiper-wrapper">
+                <!-- nested -->
+                <div class="swiper-slide">
+                    <div class="swiper-container swiper-container-v swiper-v1">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="curve-slider-img">
+                                    <img src="assets/images/01.jpg">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="curve-slider-img">
+                                    <img src="assets/images/02.jpg">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="curve-slider-img">
+                                    <img src="assets/images/03.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- nested -->
+                <div class="swiper-slide">
+                    <div class="swiper-container swiper-container-v swiper-v2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="curve-slider-img">
+                                    <img src="assets/images/03.jpg">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="curve-slider-img">
+                                    <img src="assets/images/01.jpg">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="curve-slider-img">
+                                    <img src="assets/images/02.jpg">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                    <!-- nested -->
+                    <div class="swiper-slide">
+                        <div class="swiper-container swiper-container-v swiper-v3">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="curve-slider-img">
+                                        <img src="assets/images/02-.jpg">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="curve-slider-img">
+                                        <img src="assets/images/01.jpg">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="curve-slider-img">
+                                        <img src="assets/images/03.jpg">
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                          <!-- nested -->
+                <div class="swiper-slide">
+                    <div class="swiper-container swiper-container-v swiper-v4">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="curve-slider-img">
+                                    <img src="assets/images/01.jpg">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="curve-slider-img">
+                                    <img src="assets/images/02.jpg">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="curve-slider-img">
+                                    <img src="assets/images/03.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <!-- nested -->
+                 <div class="swiper-slide">
+                    <div class="swiper-container swiper-container-v swiper-v5">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="curve-slider-img">
+                                    <img src="assets/images/03.jpg">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="curve-slider-img">
+                                    <img src="assets/images/01.jpg">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="curve-slider-img">
+                                    <img src="assets/images/02.jpg">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- nested slide end -->
+
+
+
+
+    <section class="craftwork-sec">
+        <div class="video-holder">
+            <video src="assets/mission.mp4" loop muted autoplay></video>
+        </div>
+        <div class="container">
+            <div class="craftwork-content">
+                <h1 class="wow fadeInUp">
+                    COLLIDER CRAFTWORKS
+                </h1>
+                <p class="wow fadeInUp">Hey World!
+                </p>
+                <p class="wow fadeInUp">
+                    We’re the new kids on the block and we are excited to be here. If you’ve played Mortal Kombat X/XI,
+                    Assassin’s Creed or Injustice II, then you’ve played with some of the characters we’ve helped create
+                    through our service company, NXA studios.
+
+                </p>
+                <p class="wow fadeInUp">The world has changed and brought a clear need for rich, immersive and
+                    interoperable virtual experiences beyond the constraints of traditional games & social networks.
+                </p>
+                <p class="wow fadeInUp">
+                    We want to be part of that change! So we have created Collider Craftworks… A new team focused on
+                    creating powerful tools, content and experiences for the next generation of creators, brands, and
+                    IP’s.
+                </p>
+                <p class="wow fadeInUp">
+                    This will be a WILD ride, and we hope you’ll join in on the fun!
+                </p>
+                <img class="wow fadeInUp" data-wow-delay="0.5s" src="assets//images/the_collider_team.webp">
+            </div>
+        </div>
+    </section>
+
+    <section class="visual-sec">
+        <div class="video-holder">
+            <video src="assets/visual_wallet.mp4" loop muted autoplay></video>
+        </div>
+        <div class="container">
+            <div class="visual-content">
+                <img src="assets/images/ue-logo.png">
+                <h1>VISUAL WALLET </h1>
+                <p>Inspired by the idea of leveraging new tech stacks, combined with our experience on AAA games &
+                    the craziness of the NFT world, we’re developing a VISUAL WALLET that will bring your virtual
+                    identity to life while keeping your digital goods protected on-chain.
+                </p>
+                <p>Built on the Unreal Engine with the MetaHuman Skeleton, your avatar & digital goods will be ready
+                    for the next generation of games and experiences.
+                </p>
+                <p>Combine & Collect in style!
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <section class="moshpit-sec">
+        <div class="video-holder">
+            <video src="assets/moshpit.mp4" loop muted autoplay></video>
+        </div>
+        <div class="container">
+            <div class="moshpit-content">
+                <h1>THE MOSHPIT</h1>
+                <video src="assets/moshpit_chat.mp4" loop muted autoplay></video>
+            </div>
+        </div>
+    </section>
+
+    <section class="gang-sec">
+        <div class="video-holder">
+            <video src="assets/the_gang.mp4" loop muted autoplay></video>
+        </div>
+        <div class="container">
+            <div class="gang-content">
+                <h1>
+                    <span>MEET THE
+                    </span>
+                    GANG
+                </h1>
+                <p>We’re a SUPER professional team of 84 of the world’s most creative and technically gifted
+                    individuals, based in Buenos Aires, Argentina.
+                    <br>(yes Messi & Maradona)
+                </p>
+                <a href="#">JOIN US!</a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logos-holder">
+                <div class="footer-logo">
+                    <div class="row align-items-center">
+                        <div class="col-md-3">
+                            <div class="logo-containt">
+                                <h4>STREET</h4>
+                                <h1>
+                                    CRED:</h1>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="all-logo-imgs">
+                                <ul>
+                                    <li>
+                                        <img src="assets/images/1_injustice2.webp" />
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/2_street-fighter.webp" />
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/3_assassins-creed.webp" />
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/4_gotham_knight.webp" />
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/5_mortal-kombat-11.webp" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="anker-containt">
+            <a href="#">Terms and Conditions |</a>
+            <a href="#"> Privacy Policy
+            </a>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.slide1', {
+            slidesPerView: 5,
+            spaceBetween: 60,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: '.card-slide-btn.next',
+                prevEl: '.card-slide-btn.prev',
+            },
+            breakpoints: {
+                100: {
+                    slidesPerView: 1,
+                    spaceBetween: 40,
+                },
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 5,
+                    spaceBetween: 60,
+                },
+            }
+        });
+    </script>
+    <script>
+        var swiper = new Swiper('.slide2', {
+            slidesPerView: 5,
+            spaceBetween: 60,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            // navigation: {
+            //     nextEl: '.card-slide-btn.next',
+            //     prevEl: '.card-slide-btn.prev',
+            // },
+        });
+    </script>
+    <script>
+        var swiper = new Swiper('.swiper-h', {
+            clickable: true,
+            slidesPerView: 5,
+            loop:true,
+            spaceBetween: 0,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                100: {
+                    slidesPerView: 2,
+                  
+                },
+                640: {
+                    slidesPerView: 2,
+                 
+                },
+                768: {
+                    slidesPerView: 3,
+                 
+                },
+                1024: {
+                    slidesPerView: 5,
+                
+                },
+            }
+        });
+        var swiper = new Swiper('.swiper-v1', {
+            clickable: true,
+            direction: 'vertical',
+            loop: true,
+            spaceBetween: 0,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+        });
+        var swiper = new Swiper('.swiper-v2', {
+            clickable: true,
+            direction: 'vertical',
+            loop: true,
+            spaceBetween: 0,
+            autoplay: {
+                delay: 8000,
+                disableOnInteraction: false,
+            },
+        });
+        var swiper = new Swiper('.swiper-v3', {
+            clickable: true,
+            direction: 'vertical',
+            loop: true,
+            spaceBetween: 0,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+        });
+        var swiper = new Swiper('.swiper-v4', {
+            clickable: true,
+            direction: 'vertical',
+            loop: true,
+            spaceBetween: 0,
+            autoplay: {
+                delay: 8000,
+                disableOnInteraction: false,
+            },
+        });
+        var swiper = new Swiper('.swiper-v5', {
+            clickable: true,
+            direction: 'vertical',
+            loop: true,
+            spaceBetween: 0,
+            autoplay: {
+                delay: 8000,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+
+
+
+    <script type="text/javascript" src="https://unpkg.com/web3modal@1.9.4/dist/index.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/evm-chains@0.2.0/dist/umd/index.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/@walletconnect/web3-provider@1.5.5/dist/umd/index.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/web3@1.6.1/dist/web3.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="https://kit.fontawesome.com/c5e5090d10.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
