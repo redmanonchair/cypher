@@ -1,0 +1,36 @@
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1400px;
+}
+}
+@media (max-width: 767px){
+    .header-content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-right ul{
+        flex-wrap: wrap;
+        row-gap: 5px;
+        justify-content: center;
+    }
+    .slide-card-box {
+        width: 70%;
+      margin: 0 auto;
+    }
+    .curve-slider-holder {
+        height: 300px;  
+    }
+    .curve-slider-img img {
+        width: calc(100% + 100px);
+    }
+    .all-logo-imgs ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 1px;
+    }
+    
+    
+    
+    
+    }
